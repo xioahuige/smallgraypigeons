@@ -1,3 +1,38 @@
 
 smallgraypigeons/app/build/intermediates/res/merged/debug/values-1196x720/values-1196x720.xml
 smallgraypigeons/build/android-profile/profile-2018-09-26-11-39-57-935.rawproto
+/gradle/wrapper/gradle-wrapper.properties
+##----------Android----------
+# build
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+
+# gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+build/
+
+local.properties
+
+##----------idea----------
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+##----------Other----------
+# osx
+*~
+.DS_Store
+gradle.properties
+
+---------------------
