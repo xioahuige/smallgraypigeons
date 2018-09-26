@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ui.ac.MainActivity">
+
+    <cn.bbjy.android.smallgraypigeons.ui.widget.NoScrollViewPager
+        android:id="@+id/viewpager_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/main_new_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom"
+        android:layout_alignParentTop="true"></FrameLayout>
+
+    <cn.bbjy.android.smallgraypigeons.ui.widget.tabview.TabWidget
+        android:id="@+id/main_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_tab"
+        android:gravity="center" />
+</RelativeLayout>
+

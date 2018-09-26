@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECECEC">
+
+
+        <LinearLayout
+            android:id="@+id/aliwx_search_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_white_radius3"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/aliwx_search_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:drawableLeft="@drawable/imui_search_icon"
+                android:drawablePadding="7dp"
+                android:focusable="false"
+                android:gravity="center"
+                android:layout_margin="@dimen/x5"
+                android:text="@string/Search"
+                android:textColor="#C4C6CF"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>

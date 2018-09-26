@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\smallgraypigeonsN\\recognizer\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "D:\\AndroidStudioProjects\\smallgraypigeonsN\\IMKit\\build\\intermediates\\bundles\\default\\res\\xml\\rc_file_path.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\smallgraypigeons\\recognizer\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "D:\\AndroidStudioProjects\\smallgraypigeons\\IMKit\\build\\intermediates\\bundles\\default\\res\\xml\\rc_file_path.xml"
+    },
+    {
+        "merged": "D:\\Users\\zhangjingyi\\Desktop\\bbjyWorks\\smallgraypigeonsN\\recognizer\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "D:\\Users\\zhangjingyi\\Desktop\\bbjyWorks\\smallgraypigeonsN\\IMKit\\build\\intermediates\\bundles\\default\\res\\xml\\rc_file_path.xml"
+    }
+]

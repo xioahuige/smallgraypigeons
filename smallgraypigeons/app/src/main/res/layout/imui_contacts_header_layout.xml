@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="false"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/aliwx_search_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/aliwx_btn_search_bar"
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aliwx_search_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:drawableLeft="@drawable/imui_search_icon"
+            android:drawablePadding="7dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/Search"
+            android:textColor="#C4C6CF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tribe_choose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+         android:descendantFocusability="beforeDescendants"
+        android:orientation="vertical"
+     >
+
+        <LinearLayout
+            android:id="@+id/tribe_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/x20"
+             android:background="@drawable/btn_white_selete"
+            android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/select_tab_chat"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:gravity="center"
+                android:text="新的朋友" />
+        </LinearLayout>
+
+        <include layout="@layout/view_horline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="15dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:background="@drawable/btn_white_selete"
+             android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/default_chatroom"
+                android:text="评论" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

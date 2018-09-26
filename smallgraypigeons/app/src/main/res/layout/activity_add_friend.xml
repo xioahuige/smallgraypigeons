@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_def_body"
+    tools:context="cn.bbjy.android.smallgraypigeons.ui.imactivity.AddFriendActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_search" />
+
+        <RelativeLayout
+            android:id="@+id/re_seachByCondition"
+            style="@style/im_addfriends_re">
+
+            <cn.bbjy.android.smallgraypigeons.ui.widget.SelectableRoundedImageView
+                android:id="@+id/conditonImg"
+                style="@style/im_addfriends_contion_img"
+                android:layout_below="@+id/tv_unread"
+                android:src="@drawable/default_fmessage"
+                app:sriv_left_bottom_corner_radius="3dip"
+                app:sriv_left_top_corner_radius="3dip"
+                app:sriv_right_bottom_corner_radius="3dip"
+                app:sriv_right_top_corner_radius="3dip" />
+
+            <TextView
+                style="@style/im_addfriends_txt"
+                android:layout_toRightOf="@id/conditonImg"
+                android:text="按条件查找" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/conditonImg"
+                android:layout_toRightOf="@+id/conditonImg"
+                android:background="@color/miaobian_color">
+
+            </LinearLayout>>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_AddByContact"
+            style="@style/im_addfriends_re">
+
+            <cn.bbjy.android.smallgraypigeons.ui.widget.SelectableRoundedImageView
+                android:id="@+id/contactImg"
+                style="@style/im_addfriends_contion_img"
+                android:layout_below="@+id/tv_unread"
+                android:src="@drawable/default_fmessage"
+                app:sriv_left_bottom_corner_radius="3dip"
+                app:sriv_left_top_corner_radius="3dip"
+                app:sriv_right_bottom_corner_radius="3dip"
+                app:sriv_right_top_corner_radius="3dip" />
+
+            <TextView
+                style="@style/im_addfriends_txt"
+                android:layout_toRightOf="@id/contactImg"
+                android:text="添加手机联系人" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/contactImg"
+                android:layout_toRightOf="@+id/contactImg"
+                android:background="@color/miaobian_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_AddBynearBy"
+            style="@style/im_addfriends_re">
+
+            <cn.bbjy.android.smallgraypigeons.ui.widget.SelectableRoundedImageView
+                android:id="@+id/nearByImg"
+                style="@style/im_addfriends_contion_img"
+                android:src="@drawable/default_fmessage"
+                app:sriv_left_bottom_corner_radius="3dip"
+                app:sriv_left_top_corner_radius="3dip"
+                app:sriv_right_bottom_corner_radius="3dip"
+                app:sriv_right_top_corner_radius="3dip" />
+
+            <TextView
+                style="@style/im_addfriends_txt"
+                android:layout_toRightOf="@id/nearByImg"
+                android:text="附近的人" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/nearByImg"
+                android:layout_toRightOf="@+id/nearByImg"
+                android:background="@color/miaobian_color" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x9"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/x5"
+
+
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8"
+            android:paddingTop="@dimen/x8">
+
+            <TextView
+                style="@style/text_black_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x5"
+                android:layout_marginTop="@dimen/x10"
+                android:layout_weight="1"
+                android:text="可能认识的人" />
+
+            <TextView
+                android:id="@+id/showNearbyAddressPeople"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x8"
+                android:layout_toRightOf="@id/nearByImg"
+                android:drawableRight="@drawable/arrow_right"
+                android:gravity="center_vertical"
+                android:drawablePadding="@dimen/x5"
+                android:text="查看更多"
+                android:textColor="#B2B2B2"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/nearby_address_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"></ListView>
+    </LinearLayout>
+</ScrollView>
