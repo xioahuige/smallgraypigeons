@@ -27,9 +27,7 @@ public class App extends MultiDexApplication {
 
 
     private void openSealDBIfHasCachedToken() {
-        String token = "6xdbvSydGJkWIoRYr8FDo0c5pmwyVWbvQxbCqdRITTvinrFhOD+cRgozgrzww9GohCrt4ZaeEd0FXV55k9M+Gg==";
-
-        String cachedToken = (String) SpUtils.get(getApplicationContext(), ConstantUtils.TOKEN, token);
+        String cachedToken = (String) SpUtils.get(getApplicationContext(), ConstantUtils.TOKEN, "");
         if (!TextUtils.isEmpty(cachedToken)) {
             String current = getCurProcessName(this);
             String mainProcessName = getPackageName();
