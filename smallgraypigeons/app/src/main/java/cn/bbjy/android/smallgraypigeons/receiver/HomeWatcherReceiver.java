@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.util.Log;
 
 import cn.bbjy.android.smallgraypigeons.ui.ac.MainActivity;
-import cn.bbjy.android.smallgraypigeons.ui.ac.MainActivityOLD;
 
 /**
  * 机型适配: 处理三星 note2  note3 按 Home 键退至后台的花屏问题
