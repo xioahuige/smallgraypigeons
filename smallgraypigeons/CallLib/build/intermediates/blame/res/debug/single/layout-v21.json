@@ -8,6 +8,10 @@
         "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "D:\\git\\smallgraypigeons\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\smallgraypigeonsN\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
@@ -38,6 +42,18 @@
     {
         "merged": "D:\\AndroidStudioProjects\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\git\\smallgraypigeons\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\git\\smallgraypigeons\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\git\\smallgraypigeons\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\smallgraypigeonsN\\CallLib\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",

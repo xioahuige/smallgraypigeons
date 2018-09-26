@@ -10,5 +10,9 @@
     {
         "merged": "D:\\AndroidStudioProjects\\smallgraypigeonsN\\CallLib\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\git\\smallgraypigeons\\smallgraypigeons\\CallLib\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "E:\\delTool\\android_sdk\\.android\\build-cache\\0419935c0ab7107603ccb3c1e5e556587ccdf2e1\\output\\res\\drawable-v21\\notification_action_background.xml"
     }
 ]
